@@ -1,0 +1,23 @@
+# .graphqlrc.yml or graphql.config.yml
+exclude:
+  [
+    "**/node_modules/**",
+    "**/__generated__/**",
+    "**/.next/**",
+    "**/.vercel/**",
+    "**/lib/gql/**",
+  ]
+projects:
+  web:
+    schema: "https://shopify.dev/admin-graphql-direct-proxy/2024-10"
+    documents: [
+      "web/**/*.{graphql,js,ts,jsx,tsx}",
+    ]
+    exclude:
+      [
+        "**/node_modules/**",
+        "**/__generated__/**",
+        "**/.next/**",
+        "**/.vercel/**",
+        "**/lib/gql/**",
+      ]

@@ -1,0 +1,26 @@
+{
+  "name": "efficient-outsource-app",
+  "version": "2.0.1",
+  "main": "web/dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "build": "shopify app build",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy",
+    "docker-dev": "docker compose up -d"
+  },
+  "author": "Lenovo",
+  "keywords": [
+    "shopify",
+    "nextjs",
+    "polaris",
+    "prisma",
+    "template"
+  ],
+  "dependencies": {
+    "prettier": "^3.2.5"
+  },
+  "private": true
+}

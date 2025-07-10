@@ -1,0 +1,34 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "f4e7391b3c3383aa50fec5da47a0ec3f"
+name = "efficient-outsource-app"
+handle = "efficient-outsource-app-9"
+application_url = "https://qualifications-yourself-slightly-tobacco.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "agent-testing-kognifi.myshopify.com"
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-07"
+
+[access.admin]
+direct_api_mode = "offline"
+embedded_app_direct_api_access = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [
+  "https://qualifications-yourself-slightly-tobacco.trycloudflare.com/auth/callback",
+  "https://qualifications-yourself-slightly-tobacco.trycloudflare.com/auth/shopify/callback",
+  "https://qualifications-yourself-slightly-tobacco.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
