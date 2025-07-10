@@ -371,7 +371,6 @@ This template was inspired by and builds upon the excellent work from:
 
 - **Documentation**: Check the `/docs` folder for detailed guides
 - **Issues**: Report bugs or request features in [GitHub Issues](../../issues)
-- **Discussions**: Join the conversation in [GitHub Discussions](../../discussions)
 - **Shopify Community**: [Shopify Partners Slack](https://shopifypartners.slack.com/)
 
 ---
