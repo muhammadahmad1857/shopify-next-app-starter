@@ -2,6 +2,10 @@
 
 A modern, full-stack Shopify app starter built with **Next.js (App Router)**, **Shopify App Bridge React**, and **Polaris UI** with support for custom backends. This template provides everything you need to build production-ready Shopify apps with a seamless embedded admin experience.
 
+## Use it
+
+[![Use this template](https://img.shields.io/badge/Use%20this-Template-success?style=for-the-badge&logo=github)](https://github.com/muhammadahmad1857/shopify-next-app-starter/generate)
+
 ## 🌟 Overview
 
 This starter template is perfect for developers who want to build sophisticated Shopify apps with:

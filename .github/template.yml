@@ -1,0 +1,9 @@
+name: Shopify Next.js App Starter
+description: >-
+  A flexible Shopify app starter built with Next.js App Router, Polaris, and App Bridge. Plug in any backend — FastAPI, Node.js, Go, etc. — no Prisma required.
+labels:
+  - shopify
+  - nextjs
+  - app-router
+  - starter
+  - backend-agnostic
