@@ -70,8 +70,9 @@ pnpx @shopify/create-app@latest --template https://github.com/muhammadahmad1857/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd efficient-outsource-app
+git clone https://github.com/muhammadahmad1857/shopify-next-app-starter.git
+cd shopify-next-app-starter
+
 
 # Install dependencies
 pnpm install
@@ -119,8 +120,8 @@ Create a `.env.local` file in the `web/` directory with these variables:
 
 ```env
 # Shopify App Configuration
-SHOPIFY_API_KEY=f4e7391b3c3383aa50fec5da47a0ec3f
-SHOPIFY_API_SECRET=1290eb7f1281c416ea94cd9fbbc2638e
+SHOPIFY_API_KEY=your-shopify-api-key
+SHOPIFY_API_SECRET=your-shopify-api-secret
 SHOPIFY_APP_URL=https://shopify-chat-agent.vercel.app
 
 # Shopify API Scopes (comprehensive read/write permissions)
@@ -377,6 +378,17 @@ This template was inspired by and builds upon the excellent work from:
 - **Issues**: Report bugs or request features in [GitHub Issues](../../issues)
 - **Discussions**: Join our [GitHub Discussions](../../discussions) for questions, ideas, and community interaction
 - **Shopify Community**: [Shopify Partners Slack](https://shopifypartners.slack.com/)
+
+## Keywords
+
+- Next.js Shopify App Starter
+- Shopify App Router Template
+- Shopify App Bridge with React
+- Polaris UI Starter
+- Shopify Fullstack App
+- Shopify with FastAPI
+- Shopify App with custom backend
+- Embedded Shopify App
 
 ---
 
